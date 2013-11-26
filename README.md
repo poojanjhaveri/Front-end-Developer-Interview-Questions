@@ -48,7 +48,7 @@
 	* *Cache static files (in the past this would be typically done with a php header, but now you could use a HTML5 Cache Manifest)*
 
 * Why is it better to serve site assets from multiple domains? 
-	* *Parallel downloads speed up the page load. Also, serving static files from a CDN ([S3](http://aws.amazon.com/s3/) for example) takes some load off your server.*
+	* *Parallel downloads speed up the page load. Also, serving static files from a CDN ([Cloudfront](http://aws.amazon.com/cloudfront/) for example) takes some load off your server.*
 
 * How many resources will a browser download from a given domain at a time?  
 	* *Depends on the browser. The recommendation is to stick to 2-4 hostnames <small>[(source)](http://www.yuiblog.com/blog/2007/04/11/performance-research-part-4/)</small>*
